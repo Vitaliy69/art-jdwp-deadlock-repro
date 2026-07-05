@@ -1,0 +1,47 @@
+# ---- Gradle ----
+.gradle/
+build/
+**/build/
+
+# ---- Local config (never commit) ----
+local.properties
+*.properties.local
+secrets.properties
+keystore.properties
+
+# ---- Signing keys / secrets (never commit) ----
+*.jks
+*.keystore
+*.p12
+*.pepk
+*.der
+google-services.json
+
+# ---- Android build outputs ----
+*.apk
+*.aab
+*.ap_
+*.aar
+*.dex
+*.class
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ---- IDE (Android Studio / IntelliJ) ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.kotlin/
+
+# ---- OS / misc ----
+.DS_Store
+Thumbs.db
+*.log
+
+# ---- Keep the Gradle wrapper tracked (repo must be self-contained) ----
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
