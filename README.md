@@ -134,4 +134,3 @@ once, without any NDA concerns.
   part of any surrounding project.
 - `debuggable=true` is set on the `debug` build type (default).
 - Everything here is synthetic and license-free to publish.
-```
